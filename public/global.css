@@ -48,10 +48,17 @@ input[type="range"] {
 }
 
 button {
-	background-color: #f4f4f4;
-	outline: none;
+	font: inherit;
+	border: 1px solid #cf0056;
+	background: #cf0056;
+	padding: 0.5rem 1rem;
+	color: white;
+	border-radius: 5px;
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.26);
+	cursor: pointer;
 }
 
+button:hover,
 button:active {
 	background-color: #ddd;
 }
